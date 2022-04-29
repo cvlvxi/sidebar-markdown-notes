@@ -10,7 +10,7 @@ body {
   color: var(--vscode-foreground);
   font-size: var(--vscode-font-size);
   font-weight: var(--vscode-font-weight);
-  font-family: var(--vscode-font-family);
+  font-family: "JetBrainsMono Nerd Font" !important;
   background-color: var(--vscode-sideBar-background);
 }
 
@@ -40,7 +40,7 @@ a:active {
 
 code {
   font-size: var(--vscode-editor-font-size);
-  font-family: var(--vscode-editor-font-family);
+  font-family: JetBrainsMono Nerd Font;
 }
 
 button {
@@ -77,7 +77,7 @@ textarea {
   display: block;
   width: 100%;
   border: none;
-  font-family: var(--vscode-font-family);
+  font-family: "JetBrainsMono Nerd Font" !important;
   padding: var(--input-padding-vertical) var(--input-padding-horizontal);
   color: var(--vscode-input-foreground);
   outline-color: var(--vscode-input-border);
