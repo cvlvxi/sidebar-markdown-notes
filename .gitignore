@@ -6,3 +6,4 @@ out/
 .vs/
 dist
 *.vsix
+.node_version

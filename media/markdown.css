@@ -3,10 +3,18 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+ :root {
+  --body-font-family: "JetBrainsMono Nerd Font Mono";
+  --body-font-size: 16px;
+  --code-font-family: "JetBrainsMono Nerd Font Mono";
+  --code-font-size: 14px;
+}
+
+
 html,
 body {
-  font-family: JetBrainsMono Nerd Font !important;
-  font-size: var(--markdown-font-size, 14px);
+  font-family: var(--body-font-family) !important;
+  font-size: var(--body-font-family) !important;
   line-height: var(--markdown-line-height, 22px);
   word-wrap: break-word;
 }
@@ -41,8 +49,8 @@ h6 {
   color: white;
   margin: 16px;
   text-align: center;
-  font-size: 12px;
-  font-family: JetBrainsMono Nerd Font !important;
+  font-size: var(--code-font-size) !important;
+  font-family: var(--code-font-family) !important;
   background-color: #444444;
   cursor: pointer;
   padding: 6px;
