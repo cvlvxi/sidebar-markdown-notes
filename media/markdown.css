@@ -3,18 +3,10 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
- :root {
-  --body-font-family: "JetBrains Mono";
-  --body-font-size: 16px;
-  --code-font-family: "JetBrains Mono";
-  --code-font-size: 14px;
-}
-
+@import 'vars.css';
 
 html,
 body {
-  font-family: var(--body-font-family) !important;
-  font-size: var(--body-font-family) !important;
   line-height: var(--markdown-line-height, 22px);
   word-wrap: break-word;
 }
