@@ -4,9 +4,9 @@
  *--------------------------------------------------------------------------------------------*/
 
  :root {
-  --body-font-family: "JetBrainsMono Nerd Font Mono";
+  --body-font-family: "JetBrains Mono";
   --body-font-size: 16px;
-  --code-font-family: "JetBrainsMono Nerd Font Mono";
+  --code-font-family: "JetBrains Mono";
   --code-font-size: 14px;
 }
 
@@ -194,7 +194,7 @@ blockquote {
 }
 
 code {
-  font-family: JetBrainsMono Nerd Font !important;
+  font-family: var(--code-font-family) !important;
   font-size: 1em;
   line-height: 1.357em;
 }
