@@ -58,6 +58,12 @@ export default class SidebarMarkdownNotesProvider implements vscode.WebviewViewP
     });
   }
 
+  public focus() {
+    if (this._view) {
+      this._view.webview.postMessage({ type: 'focus' });
+    }
+  }
+
   public resetData() {
     if (this._view) {
       this._view.webview.postMessage({ type: 'resetData' });

@@ -39,6 +39,7 @@
 		"onCommand:sidebar-markdown-notes.previousPage",
 		"onCommand:sidebar-markdown-notes.nextPage",
 		"onCommand:sidebar-markdown-notes.togglePreview",
+		"onCommand:sidebar-markdown-notes.focus",
 		"onView:sidebarMarkdownNotes.webview"
 	],
 	"main": "./dist/extension.js",
@@ -53,6 +54,11 @@
 			]
 		},
 		"commands": [
+			{
+				"command": "sidebar-markdown-notes.focus",
+				"category": "Sidebar markdown notes: Focus",
+				"title": "Focus Sidebar"
+			},
 			{
 				"command": "sidebar-markdown-notes.resetData",
 				"category": "Sidebar markdown notes",

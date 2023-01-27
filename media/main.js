@@ -212,6 +212,10 @@
         saveState(initialState);
         break;
       }
+      case 'focus': {
+        document.getElementById('text-input').focus();
+        break;
+      }
     }
   });
 

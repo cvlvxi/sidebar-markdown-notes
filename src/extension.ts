@@ -48,6 +48,12 @@ export function activate(context: vscode.ExtensionContext) {
       provider.resetData();
     })
   );
+
+  context.subscriptions.push(
+    vscode.commands.registerCommand('sidebar-markdown-notes.focus', () => {
+      provider.focus();
+    })
+  );
 }
 
 // this method is called when your extension is deactivated
