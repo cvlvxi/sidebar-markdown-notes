@@ -72,6 +72,7 @@ textarea {
   width: 100%;
   border: none;
   font-family: var(--body-font-family) !important;
+  font-size: var(--body-font-size) !important;
   padding: var(--input-padding-vertical) var(--input-padding-horizontal);
   color: var(--vscode-input-foreground);
   outline-color: var(--vscode-input-border);

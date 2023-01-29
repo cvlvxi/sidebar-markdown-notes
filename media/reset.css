@@ -1,6 +1,9 @@
+@import 'vars.css';
+
 html {
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: var(--body-font-size) !important;
+  font-family: var(--body-font-family) !important;
 }
 
 *,

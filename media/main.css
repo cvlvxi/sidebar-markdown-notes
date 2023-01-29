@@ -1,14 +1,20 @@
+@import 'vars.css';
+
 #text-input {
   height: 100%;
   resize: none;
   outline: 0;
   white-space: break-spaces;
+  font-size: var(--body-font-size) !important;
+  font-family: var(--body-font-family) !important;
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
+  font-size: var(--body-font-size) !important;
+  font-family: var(--body-font-family) !important;
 }
 
 .todoList {
