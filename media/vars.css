@@ -1,6 +1,8 @@
 :root {
-  --body-font-family: 'JetBrainsMono Nerd Font Mono';
-  --body-font-size: 20px;
-  --code-font-family: 'JetBrainsMono Nerd Font Mono';
-  --code-font-size: 20px;
+  /* --body-font-family: 'JetBrainsMono Nerd Font Mono'; */
+  --body-font-family: 'SF Compact Text';
+  --body-font-size: 14px;
+  /* --code-font-family: 'JetBrainsMono Nerd Font Mono'; */
+  --code-font-family: 'SF Compact Text';
+  --code-font-size: 14px;
 }
