@@ -7,5 +7,37 @@
         "out": true // set this to false to include "out" folder in search results
     },
     // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
-    "typescript.tsc.autoDetect": "off"
+    "typescript.tsc.autoDetect": "off",
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000000",
+        "editorCursor.foreground": "#ff5d57",
+        "editorGroup.border": "#ff0000",
+        "focusBorder": "#ffff00",
+        "list.focusBackground": "#ffdb2933",
+        "minimap.background": "#00000011",
+        "minimapSlider.background": "#0090F144",
+        "notebook.cellHoverBackground": "#0090F111",
+        "notebook.focusedCellBackground": "#0090F144",
+        "panel.border": "#000000",
+        "panelTitle.activeForeground": "#ff0000",
+        "panelTitle.inactiveForeground": "#ffffff",
+        "scrollbarSlider.background": "#ff0000",
+        "sideBar.border": "#000000",
+        "statusBar.background": "#f2f098",
+        "statusBar.foreground": "#000000",
+        "tab.activeBackground": "#0090F144",
+        "tab.activeBorder": "#f2f098",
+        "terminal.findMatchHighlightBackground": "#ffff0055",
+        "titleBar.activeBackground": "#f2f098",
+        "titleBar.activeForeground": "#000000",
+        "titleBar.inactiveBackground": "#f2f098",
+        "titleBar.inactiveForeground": "#000000",
+        "titleBar.border": "#f2f098",
+        "activityBar.background": "#f2f098",
+        "activityBar.foreground": "#000000",
+        "statusBar.debuggingBackground": "#f2f098",
+        "statusBar.debuggingForeground": "#000000",
+        "iLoveWorkSpaceColors": true,
+        "iLoveWorkSpaceRandom": false
+    }
 }
