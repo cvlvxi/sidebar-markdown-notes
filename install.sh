@@ -1,7 +1,4 @@
-nodenv local 16.14.2-arm64
-
 yarn
-
 yarn compile
-
 vsce package
+code --install-extension sidebar-markdown-notes-1.0.4.vsix
