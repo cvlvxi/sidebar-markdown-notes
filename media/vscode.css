@@ -1,4 +1,4 @@
-@import "vars.css";
+@import "custom_vars.css";
 
 body {
   color: var(--vscode-foreground);
