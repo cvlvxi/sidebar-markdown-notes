@@ -4,6 +4,7 @@ html {
   box-sizing: border-box;
   font-size: var(--body-font-size) !important;
   font-family: var(--body-font-family) !important;
+  font-weight: 200 !important;
 }
 
 *,
