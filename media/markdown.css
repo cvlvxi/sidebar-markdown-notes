@@ -11,7 +11,7 @@ body {
   word-wrap: break-word;
   font-size: var(--body-font-size) !important;
   font-family: var(--body-font-family) !important;
-  font-weight: 200 !important;
+  font-weight: var(--all-font-weight) !important;
 }
 
 /* Reset margin top for elements */
@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
+  font-weight: var(--all-font-weight) !important;;
   margin-bottom: 0.2em;
 }
 
@@ -158,7 +158,7 @@ h1 {
   line-height: 1.2;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  font-weight: normal;
+  font-weight: var(--all-font-weight) !important;
 }
 
 table {
