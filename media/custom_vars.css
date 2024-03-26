@@ -1,13 +1,14 @@
 :root {
-  --firefox-font: 'SF Compact Text';
-  --firefox-font-size: 16px;
-  --firefox-font-weight: 300;
+  /* --ui-font: 'SF Compact Text'; */
+  --ui-font: 'JetBrainsMono NFM';
+  --ui-font-size: 15px;
+  --ui-font-weight: 300;
 
-  --body-font-family: var(--firefox-font);
-  --body-font-size: var(--firefox-font-size);
+  --body-font-family: var(--ui-font);
+  --body-font-size: var(--ui-font-size);
 
-  --code-font-family: var(--firefox-font);
-  --code-font-size: var(--firefox-font-size);
+  --code-font-family: var(--ui-font);
+  --code-font-size: var(--ui-font-size);
 
-  --all-font-weight: var(--firefox-font-weight);
+  --all-font-weight: var(--ui-font-weight);
 }
