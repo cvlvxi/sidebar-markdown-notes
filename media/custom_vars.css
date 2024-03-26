@@ -1,10 +1,13 @@
 :root {
-  --body-font-family: 'JetBrainsMono NFM';
-  --body-font-size: 14px;
-  --code-font-family: 'JetBrainsMono NFM';
-  --code-font-size: 14px;
-  /* --textarea-background-color: #00000033;  */
-  /* --textarea-foreground-color: brightness(currentColor) < 50% ? #FF0000 : #4695C7; */
-  /* --textarea-foreground-color: #FF0000; */
-  --all-font-weight: '200';
+  --firefox-font: 'Iosevka NFM';
+  --firefox-font-size: 12px;
+  --firefox-font-weight: 400;
+
+  --body-font-family: var(--firefox-font);
+  --body-font-size: var(--firefox-font-size);
+
+  --code-font-family: var(--firefox-font);
+  --code-font-size: var(--firefox-font-size);
+
+  --all-font-weight: var(--firefox-font-weight);
 }
