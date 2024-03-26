@@ -1,6 +1,6 @@
 :root {
   --firefox-font: 'Iosevka NFM';
-  --firefox-font-size: 12px;
+  --firefox-font-size: 14px;
   --firefox-font-weight: 400;
 
   --body-font-family: var(--firefox-font);
