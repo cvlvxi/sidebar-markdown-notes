@@ -1,6 +1,6 @@
 :root {
   --firefox-font: 'SF Compact Text';
-  --firefox-font-size: 14px;
+  --firefox-font-size: 16px;
   --firefox-font-weight: 300;
 
   --body-font-family: var(--firefox-font);
