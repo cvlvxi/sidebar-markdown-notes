@@ -1,7 +1,7 @@
 :root {
-  --firefox-font: 'JetBrainsMono NFM';
+  --firefox-font: 'SF Compact Text';
   --firefox-font-size: 14px;
-  --firefox-font-weight: 200;
+  --firefox-font-weight: 300;
 
   --body-font-family: var(--firefox-font);
   --body-font-size: var(--firefox-font-size);
