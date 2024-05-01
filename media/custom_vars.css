@@ -1,8 +1,8 @@
 :root {
   /* --ui-font: 'SF Compact Text'; */
   --ui-font: 'JetBrainsMono NFM';
-  --ui-font-size: 15px;
-  --ui-font-weight: 400;
+  --ui-font-size: 18px;
+  --ui-font-weight: 300;
 
   --body-font-family: var(--ui-font);
   --body-font-size: var(--ui-font-size);
