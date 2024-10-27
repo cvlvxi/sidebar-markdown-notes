@@ -1,8 +1,8 @@
 :root {
   /* --ui-font: 'SF Compact Text'; */
-  /* --ui-font: 'JetBrainsMono NFM'; */
-  --ui-font: 'IBM Plex Sans';
-  --ui-font-size: 14px;
+  --ui-font: 'JetBrainsMono Nerd Font Mono';
+  /* --ui-font: 'IBM Plex Sans'; */
+  --ui-font-size: 13px;
   --ui-font-weight: 400;
 
   --body-font-family: var(--ui-font);
